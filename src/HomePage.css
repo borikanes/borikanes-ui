@@ -1,0 +1,31 @@
+.Home-header {
+    background-color: #222;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    /* padding-bottom: 0; */
+}
+
+.Home-header-name-div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gugi', cursive;
+}
+
+
+.Home-header-name-div h1 {
+    margin: 0;
+    /* margin-top: 7px; */
+}
+
+@media only screen and (max-width : 500px) {
+    .Home-header-name-div h1 {
+        margin-top: 10px;
+    }
+
+    .Home-header-name-div {
+        font-size: 10px;
+        top: 10px;
+    }
+}
