@@ -16,13 +16,27 @@
     align-items: center;
 }
 
+.Home-top-div p {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
 .Home-avatar-div {
     height: 100px;
     width: 100px;
     background-color: red;
+    border-radius: 50%;
 }
 
 
-@media only screen and (max-width : 500px) {
-    
+@media only screen and (max-width : 463px) {
+    .Home-top-div h2 {
+        font-size: 1.1em;
+    }
+
+    .Home-top-div p {
+        font-size: 15px;
+    }
 }
