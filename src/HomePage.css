@@ -23,6 +23,11 @@
     font-size: 20px;
 }
 
+.Home-top-div h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .Home-avatar-div {
     height: 100px;
     width: 100px;
@@ -30,8 +35,17 @@
     border-radius: 50%;
 }
 
+@media only screen and (max-width : 801px) {
+    .Home-top-div {
+        height: 350px;
+    }
+}
 
 @media only screen and (max-width : 463px) {
+    .Home-top-div {
+        height: 400px;
+    }
+
     .Home-top-div h2 {
         font-size: 1.1em;
     }
