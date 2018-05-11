@@ -35,6 +35,31 @@
     border-radius: 50%;
 }
 
+.Home-projects-div {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    font-family: 'Gugi', cursive;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home-projects-div h1 {
+    color: white;
+}
+
+.Home-carousel-div {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
 @media only screen and (max-width : 801px) {
     .Home-top-div {
         height: 350px;
