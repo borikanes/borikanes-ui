@@ -31,8 +31,8 @@
 .Home-avatar-div {
     height: 100px;
     width: 100px;
-    background-color: red;
     border-radius: 50%;
+    background-size: cover;
 }
 
 .Home-projects-div {
