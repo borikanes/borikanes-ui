@@ -8,7 +8,6 @@
 .Home-top-div {
     display: flex;
     justify-content: center;
-    height: 300px;
     width: 100%;
     font-family: 'Gugi', cursive;
     background-color: aliceblue;
@@ -17,10 +16,11 @@
 }
 
 .Home-top-div p {
-    font-weight: bold;
+    /* font-weight: bold; */
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .Home-top-div h1 {
@@ -29,10 +29,11 @@
 }
 
 .Home-avatar-div {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     background-size: cover;
+    margin-top: 20px;
 }
 
 .Home-projects-div {
@@ -60,22 +61,17 @@
     /* align-items: center; */
 }
 
-@media only screen and (max-width : 801px) {
-    .Home-top-div {
-        height: 350px;
-    }
-}
-
 @media only screen and (max-width : 463px) {
-    .Home-top-div {
-        height: 400px;
-    }
-
     .Home-top-div h2 {
         font-size: 1.1em;
     }
 
     .Home-top-div p {
         font-size: 15px;
+    }
+
+    .Home-avatar-div {
+        height: 150px;
+        width: 150px;
     }
 }

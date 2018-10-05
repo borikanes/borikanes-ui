@@ -21,3 +21,4 @@ export default class HomePage extends Component {
         );
     }
 }
+// WORK ON CAROUSEL NEXT - https://dev.to/willamesoares/how-to-build-an-image-carousel-with-react--24na
