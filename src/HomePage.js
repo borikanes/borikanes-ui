@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './HomePage.css';
 import profile_picture from './images/profile.png';
 import ProjectCarousel from './ProjectCarousel.js';
+import ProjectGrid from './ProjectGrid';
 
 export default class HomePage extends Component {
     render() {
@@ -13,10 +14,11 @@ export default class HomePage extends Component {
                     <p>Currently pledging my allegiance to Capital One. Full stack engineer, I love to code and very passionate about learning and teaching different types of technologies.</p>
                 </div>
                 <div className="Home-projects-div">
-                    {/* <h1>Projects</h1> */}
+                    <h1>Projects</h1>
                     {/* <div className="Home-carousel-div" > */}
-                        < ProjectCarousel />
+                        {/* < ProjectCarousel /> */}
                     {/* </div> */}
+                    <ProjectGrid />
                 </div>
             </div>
         );
