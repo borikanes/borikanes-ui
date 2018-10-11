@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './HomePage.css';
 import profile_picture from './images/profile.png';
-import ProjectCarousel from './ProjectCarousel.js';
 import ProjectGrid from './ProjectGrid';
 
 export default class HomePage extends Component {
@@ -15,13 +14,9 @@ export default class HomePage extends Component {
                 </div>
                 <div className="Home-projects-div">
                     <h1>Projects</h1>
-                    {/* <div className="Home-carousel-div" > */}
-                        {/* < ProjectCarousel /> */}
-                    {/* </div> */}
                     <ProjectGrid />
                 </div>
             </div>
         );
     }
 }
-// WORK ON CAROUSEL NEXT - https://dev.to/willamesoares/how-to-build-an-image-carousel-with-react--24na
