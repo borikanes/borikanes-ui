@@ -10,11 +10,59 @@
     text-align: center;
     background-color: aquamarine;
     background-size: cover;
+    /* background: url(./images/profile.png) no-repeat center center; */
 }
 
-@media only screen and (max-width : 500px) {
+.Project-item-overlay-div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+    opacity: 0.8;
+    animation-name: example;
+    animation-duration: 0.8s;
+}
+
+@keyframes example {
+    from {height: 0;}
+    to {height: 100%;}
+}
+
+@media only screen and (max-width : 920px) {
+    .Project-item-div {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width : 760px) {
+    .Project-item-div {
+        width: 250px;
+        height: 250px;
+    }
+
     .Project-grid-base-div {
         display: grid;
         grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width : 530px) {
+    .Project-item-div {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media only screen and (max-width : 430px) {
+    .Project-grid-base-div {
+        display: inline-grid;
+        grid-template-columns: auto;
+    }
+
+    .Project-item-div {
+        width: 250px;
+        height: 250px;
     }
 }

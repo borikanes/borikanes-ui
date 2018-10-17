@@ -39,7 +39,6 @@
 .Home-projects-div {
     display: flex;
     justify-content: center;
-    height: 500px;
     width: 100%;
     font-family: 'Gugi', cursive;
     background-color: white;
