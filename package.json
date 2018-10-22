@@ -8,6 +8,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-onclickoutside": "^6.7.1",
+    "react-pose": "^3.3.6",
     "react-responsive-carousel": "^3.1.42",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4"
