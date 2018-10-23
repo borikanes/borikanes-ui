@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './ProjectGrid.css';
 import profile_picture from './images/profile.png';
 import wedding_shot from './images/wedding-shot.jpg';
+import nessie_shot from './images/nessie-shot.jpg';
+import wedding_ios_shot from './images/wedding-ios-shot.jpg';
 import posed from 'react-pose';
 
 export default class ProjectGrid extends Component {
@@ -23,23 +25,14 @@ export default class ProjectGrid extends Component {
 
         return(
             <div className="Project-grid-base-div">
-                <Box className="Project-item-div" style={{'backgroundImage': `url(${profile_picture})`}}>
-                    <ProjectOverlay />
+                <Box className="Project-item-div" style={{'backgroundImage': `url(${wedding_ios_shot})`}}>
+                    <ProjectOverlay title="My Wedding iOS app" subtitle="Swift, iOS"/>
                 </Box>
-                <Box className="Project-item-div">
-                    <ProjectOverlay />
-                </Box>
-                <Box className="Project-item-div">
-                    <ProjectOverlay />
+                <Box className="Project-item-div" style={{'backgroundImage': `url(${nessie_shot})`}}>
+                    <ProjectOverlay title="Nessie" subtitle="NodeJS, Python" />
                 </Box>
                 <Box className="Project-item-div" style={{'backgroundImage': `url(${wedding_shot})`}}>
-                    <ProjectOverlay  title="My wedding website" subtitle="React on AWS" />
-                </Box>
-                <Box className="Project-item-div" style={{'backgroundImage': `url(${wedding_shot})`}}>
-                    <ProjectOverlay />
-                </Box>
-                <Box className="Project-item-div">
-                    <ProjectOverlay />
+                    <ProjectOverlay  title="My wedding website" subtitle="React, AWS" />
                 </Box>
             </div>
         );
