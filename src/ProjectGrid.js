@@ -68,7 +68,7 @@ class ProjectOverlay extends Component {
             }
         };
         
-        styles.overlay.opacity = this.state.isFocused === true ? 0.8 : 0
+        styles.overlay.opacity = this.state.isFocused === true ? 1 : 0
         return(
             <div className="Project-item-overlay-div" onMouseOut={this.mouseOutHandler} onMouseOver={this.mouseOverHandler} style={styles.overlay}>
                 <div className="Project-grid-top-div">
