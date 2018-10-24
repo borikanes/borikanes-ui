@@ -1,0 +1,25 @@
+.Footer-parent-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.Footer-parent-div p {
+    color: white;
+}
+
+.Footer-social-icons-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Footer-social-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './HomePage.css';
 import profile_picture from './images/profile.png';
 import ProjectGrid from './ProjectGrid';
+import Footer from './Footer.js';
 
 export default class HomePage extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class HomePage extends Component {
                     <h1>Recent Projects</h1>
                     <ProjectGrid />
                 </div>
+                <Footer />
             </div>
         );
     }
