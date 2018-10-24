@@ -13,7 +13,7 @@ export default class HomePage extends Component {
                     <p>Currently pledging my allegiance to Capital One. Full stack engineer, I love to code and very passionate about learning and teaching different types of technologies.</p>
                 </div>
                 <div className="Home-projects-div">
-                    <h1>Projects</h1>
+                    <h1>Recent Projects</h1>
                     <ProjectGrid />
                 </div>
             </div>
