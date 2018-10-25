@@ -60,6 +60,11 @@
     /* align-items: center; */
 }
 
+.Home-space-div {
+    height: 50px;
+    width: 100%;
+}
+
 @media only screen and (max-width : 463px) {
     .Home-top-div h2 {
         font-size: 1.1em;

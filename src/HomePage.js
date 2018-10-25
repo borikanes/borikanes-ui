@@ -16,6 +16,7 @@ export default class HomePage extends Component {
                 <div className="Home-projects-div">
                     <h1>Recent Projects</h1>
                     <ProjectGrid />
+                    <div className="Home-space-div"></div>
                 </div>
                 <Footer />
             </div>
