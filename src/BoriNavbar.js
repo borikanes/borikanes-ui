@@ -11,10 +11,10 @@ export default class BoriNavbar extends Component {
                         <h1><a href="/">Oluwabori (Bori) Oludemi</a></h1>
                     </div>
                     <div className="Navbar-nav-items-div" >
-                        <a href="/" className="Header-nav-buttons-first">HOME</a>
-                        <a href="/resume" className="Header-nav-buttons-first">RESUME</a>
-                        <a href="/blog" className="Header-nav-buttons-first">BLOG</a>
-                        <a href="/" className="Header-nav-buttons-first">GITHUB</a>
+                        {/* <a href="/" className="Header-nav-buttons-first">HOME</a> */}
+                        <a href="https://s3.amazonaws.com/borikanes-resources/bori_resume.pdf" className="Header-nav-buttons-first">RESUME</a>
+                        <a href="http://borikanes.me/blog/" className="Header-nav-buttons-first">BLOG</a>
+                        <a href="https://github.com/borikanes" className="Header-nav-buttons-first">GITHUB</a>
                     </div>
                 </div>
                 <DropDown />
