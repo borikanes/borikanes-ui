@@ -50,7 +50,7 @@ class DropDown extends Component {
             <div className="Navbar-dropdown-div">
               {/* <a href="/" className="Navbar-dropdown-each-button">HOME</a> */}
               <a href="https://s3.amazonaws.com/borikanes-resources/bori_resume.pdf" className="Navbar-dropdown-each-button">RESUME</a>
-              <a href="http://borikanes.me/blog/" className="Navbar-dropdown-each-button">BLOG</a>
+              <a href="http://blog.borikanes.me" className="Navbar-dropdown-each-button">BLOG</a>
               <a href="https://github.com/borikanes" className="Navbar-dropdown-each-button">GITHUB</a>
             </div>
           </div>
