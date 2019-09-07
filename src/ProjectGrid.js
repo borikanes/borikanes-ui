@@ -58,14 +58,14 @@ class ProjectOverlay extends Component {
 
     handleButtonClick = (event) => {
         console.log(event);
-        
+
         if (event.target.value === "0") {
             window.open('https://github.com/borikanes/BoriAndMalloryWeddingIOS')
         } else if (event.target.value === "1") {
             // Will cloudfront like this?
             window.open('http://api.reimaginebanking.com/')
         } else if (event.target.value === "2") {
-            window.open('https://boriandmallory.com/')
+            window.open('https://d221w6irgt3n79.cloudfront.net/')
         }
     }
 
@@ -75,7 +75,7 @@ class ProjectOverlay extends Component {
                 opacity: 0
             }
         };
-        
+
         styles.overlay.opacity = this.state.isFocused === true ? 1 : 0
         return(
             <div className="Project-item-overlay-div" onMouseOut={this.mouseOutHandler} onMouseOver={this.mouseOverHandler} style={styles.overlay}>
